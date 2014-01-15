@@ -1,0 +1,35 @@
+.page-template-page-moh-home-php .entry-content,
+.page-template-page-moh-search-php .entry-content { 
+	padding-left: 20px;
+
+	h2 {
+		line-height: 1.5;
+	}
+
+	h3 {
+		color: #424286;
+		line-height: 1.4;
+		&.heading {
+			margin: 8px 0 0;
+			i {
+				position:
+				relative; top: 1px;
+			}
+		}
+		a {
+			color: #424286;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	p:last-child {
+		margin: 0;
+	}
+}
+
+.page-template-page-moh-home-php .caption { 
+	text-align: center; 
+}

@@ -1,0 +1,128 @@
+.post-type-archive-interviewees #content,
+.single-interviews #content { 
+	width: 960px;
+}
+
+.post-type-archive-interviewees #filters {
+	padding-bottom: 20px;
+	button:hover {
+		background: #f89406;
+	}
+	select {
+		margin: 0 10px 0 0;
+		width: 300px;
+	}
+	strong {
+		margin-right: 3px;
+		position: relative;
+		top: 2px;
+	}
+}
+.post-type-archive-interviewees .post-thumbnail img { 
+	background: #ddd;
+}
+
+.single-interviews {
+	.title h2 {	
+		font-size: 23px;
+		font-weight: normal;
+		position: relative;
+		top: 2px;
+	}
+	#titlebar {
+		background: #f2f0f0;
+		font-size: 12px;
+		margin-left: 0;
+		.inline {
+			margin-top: 11px;
+			li {
+				color: #999;
+				display: inline;
+				line-height: 1.7;
+				margin-right: 5px;
+				i {
+					font-size: 20px;
+					position: relative;
+					top: 3px;
+					&.icon-folder-close {
+						font-size: 15px;
+						margin-left: 2px;
+						margin-right: 5px;
+						top: 1px;
+					}
+				}
+			}
+		}
+		.links {
+			color: #3c3a79;
+			a {
+				text-decoration: underline;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			li {
+				color: #3c3a79;
+				margin-right: 14px;
+				i {
+					color: #3c3a79;
+				}
+			}
+			.cd {
+				margin-right: 3px;
+				position:relative;
+				top:3px;
+			}
+		}
+		.post-thumbnail img {
+			background: #ddd;
+			border-radius: 0;
+			box-shadow: none;
+			float: right;
+			height: auto;
+			width: 150px;
+		}
+		.span9 {
+			padding-top: 10px;
+		}
+		.tags {
+			a {
+				background: #dadada;
+				border-radius: 3px;
+				color: #666;
+				display: inline-block;
+				margin-bottom: 5px;
+				padding: 1px 6px 0;
+				&:hover {
+					background: #cacaca;
+					text-decoration: none;
+				}
+			}
+			li:first-child {
+				margin-right: 1px;
+			}
+		}
+	}
+	#contents {
+		h3 {
+			font-size: 16px;
+			&.inverse {
+				background: #333;
+				color: #fff;
+				padding: 1px 10px;
+			}
+		}
+		.dataTables_info {
+			margin-bottom: 8px;
+		}
+		table.tablepress thead {
+			display: none;
+		}
+	}
+	#video {
+		margin-top: 20px;
+	}
+	#plugin {
+		border-right: 1px solid #ededed;
+	}
+}
