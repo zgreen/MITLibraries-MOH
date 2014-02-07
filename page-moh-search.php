@@ -26,7 +26,6 @@ get_header();
 				<a href="<?php echo home_url(); ?>"><i class="icon-arrow-right"></i> Back to Music Oral History home</a>
 			</div>
 		</div>
-			
 		<div id="content" class="group">
 			<div class="entry-content">
 				<?php the_content(); ?>
